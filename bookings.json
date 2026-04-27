@@ -1,8 +1,8 @@
 [
     {
-        "resource": "Test",
-        "user": "Josh",
-        "time": "22:45",
-        "capacity": 1000
+        "resource": "RoomA",
+        "user": "Josh L",
+        "time": "14:00",
+        "capacity": 6
     }
 ]
