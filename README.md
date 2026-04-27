@@ -33,6 +33,7 @@ python main.py
 ## Project Structure
 
 UniScheduler/
+
 │
 ├── main.py              # CLI version of the system  
 ├── main_gui.py          # GUI version using Tkinter  
