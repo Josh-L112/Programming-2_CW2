@@ -46,3 +46,39 @@ UniScheduler/
 │
 ├── README.md  
 └── docs/                # Documentation (UML, report, screenshots) 
+
+---
+
+## Object-Oriented Programming Concepts
+
+The system demonstrates key OOP principles:
+
+- Inheritance  
+  A base Resource class is extended by LabSpace and MeetingRoom  
+
+- Encapsulation  
+  Data is stored within classes and accessed through methods  
+
+- Polymorphism  
+  Methods such as get_details() behave differently depending on the object type  
+
+---
+
+## Core Functionality
+
+The system works by allowing users to enter booking details including resource, time, and number of people. It then performs checks before saving the booking:
+
+- Checks if the room is already booked at the same time  
+- Checks if the room can handle the requested capacity  
+- Saves valid bookings to a JSON file  
+
+---
+
+## Data Storage
+
+- All bookings are stored in bookings.json  
+- Data is loaded when the program starts  
+- Data is saved when the program exits  
+- If the file is missing, the system creates a new one automatically  
+
+---
