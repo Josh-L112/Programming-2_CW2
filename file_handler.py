@@ -1,12 +1,15 @@
 import json
 
+# load data safely
 def load_data(filename):
     try:
         with open(filename, "r") as f:
             return json.load(f)
     except:
-        return []
+        return []  # return empty if file missing
 
+
+# save data
 def save_data(filename, data):
     with open(filename, "w") as f:
         json.dump(data, f, indent=4)
