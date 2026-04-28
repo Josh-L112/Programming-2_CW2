@@ -82,3 +82,42 @@ The system works by allowing users to enter booking details including resource, 
 - If the file is missing, the system creates a new one automatically  
 
 ---
+
+## Error Handling
+
+The system includes basic defensive programming:
+
+- Handles invalid input (e.g. text instead of numbers)  
+- Prevents crashes using try/except blocks  
+- Displays error messages for incorrect entries  
+
+---
+
+## Limitations
+
+- Uses JSON instead of a database  
+- GUI is simple and not fully styled  
+- Does not support advanced features like recurring bookings  
+
+---
+
+## Future Improvements
+
+- Add a graphical calendar view  
+- Replace JSON with a database (e.g. SQLite)  
+- Implement user login/authentication  
+- Improve GUI layout and design  
+- Add search and filtering features  
+
+---
+
+## Authors
+
+- Tomas Striska  
+- Joshua Lemaire 
+
+---
+
+## Notes
+
+This project was developed as part of a university coursework assignment focusing on Object-Oriented Programming, system design, and usability principles.
