@@ -4,5 +4,11 @@
         "user": "Josh L",
         "time": "14:00",
         "capacity": 6
+    },
+    {
+        "resource": "RoomA",
+        "user": "Josh",
+        "time": "10:00",
+        "capacity": 20
     }
 ]
